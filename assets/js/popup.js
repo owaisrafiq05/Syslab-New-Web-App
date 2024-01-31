@@ -1,3 +1,6 @@
+// Coding done by Owais Rafiq
+// linkedin ID: https://www.linkedin.com/in/owais-rafiq-639494253/ 
+
 // leanModal v1.1 by Ray Stone - http://finelysliced.com.au
 // Dual licensed under the MIT and GPL
 

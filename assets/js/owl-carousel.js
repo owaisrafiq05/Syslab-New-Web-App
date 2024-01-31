@@ -1,3 +1,8 @@
+// Coding done by Owais Rafiq
+// linkedin ID: https://www.linkedin.com/in/owais-rafiq-639494253/ 
+
+
+
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch

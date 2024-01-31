@@ -1,3 +1,6 @@
+// Coding done by Owais Rafiq
+// linkedin ID: https://www.linkedin.com/in/owais-rafiq-639494253/ 
+
 import {
     getFirestore,
     collection,
@@ -83,7 +86,7 @@ import {
         <h1 class="heading">${title}</h1>
         <div class="hero-container">
         <div class="author">
-            <img src="../OIP.jpg" alt="" class="author_img">
+            <img src="./assets/images/OIP.jpg" alt="" class="author_img">
             <div class="desc">
             <h4>${authname}</h4>
             <small>Student of FAST NUCES</small>

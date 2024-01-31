@@ -1,3 +1,37 @@
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Signika", sans-serif;
+}
+
+.img {
+    margin-left: 3%;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+
+#navbarNav {
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .heading{
     text-align: center;
     margin-top: 100px;
@@ -122,4 +156,10 @@
         margin: 0;
         min-height: 50vh;
     }
+}
+
+
+.blog-section{
+    display: flex;
+    padding-top: 100px;
 }

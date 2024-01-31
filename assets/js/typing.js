@@ -1,3 +1,8 @@
+// Coding done by Owais Rafiq
+// linkedin ID: https://www.linkedin.com/in/owais-rafiq-639494253/ 
+
+
+
 const dynamicText = document.querySelector("h1 span");
 const words = ["Data Engineering", "AI Solutions", "Web Interfaces", "Cross Platform Mobile Apps"];
 // Variables to track the position and deletion status of the word

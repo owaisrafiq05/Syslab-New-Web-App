@@ -1,3 +1,8 @@
+// Coding done by Owais Rafiq
+// linkedin ID: https://www.linkedin.com/in/owais-rafiq-639494253/ 
+
+
+
 import {
     getFirestore,
     collection,
@@ -68,22 +73,27 @@ import {
         </div>
       `;
 
-    });
-    window.localStorage.removeItem("newblogid");
+      window.localStorage.removeItem("newblogid");
 
-    let readMoreButtons = parent.querySelectorAll('.read-more');
-    readMoreButtons.forEach(button => {
-      button.onclick = function(event) {
-        var id = event.target.dataset.id;
-           // Use event.target.dataset.id to get the data-id attribute
-        window.location.reload();
-        localStorage.setItem("newblogid", id);
-        // Call the function to handle the click event
-        // let blogid = localStorage.getItem("blogid");
-        window.location.href='./blog2.html';
-        // handleReadMoreClick(blogid);
-      };
+      let readMoreButtons = parent.querySelectorAll(".read-more");
+      readMoreButtons.forEach((button) => {
+        button.onclick = function (event) {
+          var id = event.target.dataset.id;
+          // Use event.target.dataset.id to get the data-id attribute
+          window.location.reload();
+          localStorage.setItem("newblogid", id);
+          // Call the function to handle the click event
+          // let blogid = localStorage.getItem("blogid");
+          window.location.href = "./blog2.html";
+          // handleReadMoreClick(blogid);
+        };
+      });
+
+
+
+
     });
+    
 
     
     

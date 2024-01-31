@@ -1,3 +1,7 @@
+// Coding done by Owais Rafiq
+// linkedin ID: https://www.linkedin.com/in/owais-rafiq-639494253/ 
+
+
 (function() {
   var Util,
     __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
